@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="slider/swiper-bundle.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Первый Бит</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_info wrap">
+            <div class="header_img">
+                <img src="img/FirstBit.svg" alt="">
+            </div>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about_Us.html">О нас</a></li>
+                    <li><a href="integration.html">Внедрения 1С</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="all_info_header">
+                <div class="header_info_under">
+                    <a href="tel:+78612104343">+7 (861) 210-43-43</a>
+                </div>
+                <div class="header_img_log">
+                    <img src="img/location.svg" alt="">
+                    <p>Краснодар</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="main_img ">
+            <div class="all_main_info wrap">
+                <div class="main_text">
+                    <p>Первый Бит</p>
+                    <p>Сделаем ваше предприятие устойчивее и сильнее с помощью ИТ</p>
+                </div>
+                <div class="main_card">
+                    <div class="main_card_info">
+                        <p>9</p>
+                        <p>Стран</p>
+                    </div>
+                    <div class="main_card_info">
+                        <p>25 +</p>
+                        <p>Лет опыта</p>
+                    </div>
+                    <div class="main_card_info">
+                        <p>7 000 +</p>
+                        <p>Специалистов</p>
+                    </div>
+                    <div class="main_card_info">
+                        <p>300 000 +</p>
+                        <p>Успешных внедрений</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="help wrap">
+            <div class="title ">
+                <p>Как мы можем вам помочь</p>
+            </div>
+            <div class="help_card_info">
+                <div class="help_cards" onclick="document.location='service.html'">
+                    <div class="help_card">
+                        <p>1С:Сервисы</p>
+                    </div>
+                    <div class="strelka">
+                        <img src="img/arrowright.svg" alt="">
+                    </div>
+                </div>
+                <div class="help_cards" onclick="document.location='accounting.html'">
+                    <div class="help_card">
+                        <p>1С:Бухгалтерия</p>
+                    </div>
+                    <div class="strelka">
+                        <img src="img/arrowright.svg" alt="">
+                    </div>
+                </div>
+                <div class="help_cards" onclick="document.location='crm.html'">
+                    <div class="help_card">
+                        <p>1С:CRM</p>
+                    </div>
+                    <div class="strelka">
+                        <img src="img/arrowright.svg" alt="">
+                    </div>
+                </div>
+                <div class="help_cards" onclick="document.location='management.html'">
+                    <div class="help_card">
+                        <p>1C:Управление Торговлей</p>
+                    </div>
+                    <div class="strelka">
+                        <img src="img/arrowright.svg" alt="">
+                    </div>
+                </div>
+                <div class="help_cards" onclick="document.location='integrate.html'">
+                    <div class="help_card">
+                        <p>Интеграция 1С </p>
+                    </div>
+                    <div class="strelka">
+                        <img src="img/arrowright.svg" alt="">
+                    </div>
+                </div>
+                <div class="help_cards" onclick="document.location='update.html'">
+                    <div class="help_card">
+                        <p>Обновление 1С</p>
+                    </div>
+                    <div class="strelka">
+                        <img src="img/arrowright.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="question wrap">
+            <div class="title">
+                <p>Есть вопрос по 1С? Первый Бит поможет!</p>
+            </div>
+            <div class="question_cards">
+                <div class="question_card">
+                    <div class="question_cards_info">
+                        <p>БЕСПЛАТНАЯ ЛИНИЯ КОНСУЛЬТАЦИЙ ПО 1С</p>
+                        <button class="js-open-modal" id="callback-button" data-modal="1">Заказать</button>
+                    </div>
+                </div>
+                <div class="question_card">
+                    <div class="question_cards_info">
+                        <p>ЗАКАЗАТЬ ВЫЕЗД ПРОГРАММИСТА 1С</p>
+                        <button class="js-open-modal" id="callback-button" data-modal="1">Заказать</button>
+                    </div>
+                </div>
+                <div class="question_card">
+                    <div class="question_cards_info">
+                        <p>ЗАКАЗАТЬ ОБНОВЛЕНИЕ 1С</p>
+                        <button class="js-open-modal" id="callback-button" data-modal="1">Заказать</button>
+                    </div>
+                </div>
+
+                <div class="modal" data-modal="1">
+                    <div class="modal__content">
+                        <p class="modalwindow_title tlogin">Заказать консультацию</p>
+                        <input type="text" name="" id="" class="ilogin" placeholder="Ваше имя">
+                        <input type="text" name="" id="" class="ilogin" placeholder="Ваш Email">
+                        <input type="tel" name="Tel" id="tel" value="+7" class="ilogin">
+                        <button class="modal-avto">Заказать</button>
+                    </div>
+                </div>
+                <div class="overlay js-overlay-modal"></div>
+
+            </div>
+        </div>
+        <div class="provider wrap">
+            <div class="title">
+                <p>Первый Бит - единый поставщик IT-услуг</p>
+            </div>
+            <div class="provider_cards">
+                <div class="provider_card">
+                    <div class="provider_card_info_img">
+                        <img src="img/main-icons1.svg" alt="">
+                    </div>
+                    <div class="provider_card_info_text">
+                        <p>Импортозамещение: подбор и внедрение аналогов ПО и сервисов. Аудит ИТ систем, “правильное
+                            обновление”, аудит и настройка интеграций.</p>
+                    </div>
+                </div>
+                <div class="provider_card">
+                    <div class="provider_card_info_img">
+                        <img src="img/main-icons2.svg" alt="">
+                    </div>
+                    <div class="provider_card_info_text">
+                        <p>Автоматизация регламентированного, оперативного и управленческого учета.</p>
+                    </div>
+                </div>
+                <div class="provider_card">
+                    <div class="provider_card_info_img">
+                        <img src="img/main-icons3.svg" alt="">
+                    </div>
+                    <div class="provider_card_info_text">
+                        <p>Автоматизация бизнес-процессов, внедрение CRM, BPM, RPA.</p>
+                    </div>
+                </div>
+                <div class="provider_card">
+                    <div class="provider_card_info_img">
+                        <img src="img/main-icons4.svg" alt="">
+                    </div>
+                    <div class="provider_card_info_text">
+                        <p>Построение и обслуживание безопасной IT-инфраструктуры предприятия.</p>
+                    </div>
+                </div>
+                <div class="provider_card">
+                    <div class="provider_card_info_img">
+                        <img src="img/main-icons5.svg" alt="">
+                    </div>
+                    <div class="provider_card_info_text">
+                        <p>Интеграция внутренних систем. Интеграция с внешними системами, сайтами, сервисами.</p>
+                    </div>
+                </div>
+                <div class="provider_card">
+                    <div class="provider_card_info_img">
+                        <img src="img/main-icons6.svg" alt="">
+                    </div>
+                    <div class="provider_card_info_text">
+                        <p>Внедрение систем бизнес-аналитики (BI). IoT, RFID, машинное обучение, имитационное
+                            моделирование.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-slider">
+            <div class="title">
+                <p>Вендоры</p>
+            </div>
+            <div class="main-slider-content wrap">
+                <div class="sliders-content swiper mySwiper">
+                    <div class="sliders-swiper swiper-wrapper">
+                        <div class="sliders-card swiper-slide">
+                            <img src="img/main-logo1.svg" alt="">
+                        </div>
+                        <div class="sliders-card swiper-slide">
+                            <img src="img/main-logo2.svg" alt="">
+                        </div>
+                        <div class="sliders-card swiper-slide">
+                            <img src="img/main-logo3.svg" alt="">
+                        </div>
+                        <div class="sliders-card swiper-slide">
+                            <img src="img/main-logo4.svg" alt="">
+                        </div>
+                        <div class="sliders-card swiper-slide">
+                            <img src="img/main-logo5.svg" alt="">
+                        </div>
+                        <div class="sliders-card swiper-slide">
+                            <img src="img/main-logo6.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer class="footer">
+        <div class="footer_main wrap">
+            <div class="footer_info">
+                <p>Все права защищены © ООО «Первый Бит»</p>
+            </div>
+            <nav class="footer_nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about_Us.html">О нас</a></li>
+                    <li><a href="integration.html">Внедрения 1С</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/modal-auto.js"></script>
+</body>
+
+</html>
